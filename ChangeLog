@@ -1,0 +1,13 @@
+2011-05-23  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* configure.ac (AM_GNU_GETTEXT_VERSION): Bump to 0.17.
+
+2007-03-25  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.am (EXTRA_DIST): Add config.rpath.
+
+2007-03-19  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.am (EXTRA_DIST): Add config.rpath mkinstalldirs.
+	* configure.ac (AC_OUTPUT): Add po/Makefile.in.
+

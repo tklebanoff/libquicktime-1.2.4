@@ -1,0 +1,267 @@
+/* config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* Define if building universal (internal helper macro) */
+#undef AC_APPLE_UNIVERSAL_BUILD
+
+/* Define as 1 if host is an IA32 */
+#undef ARCH_X86
+
+/* Header for libavcodec */
+#undef AVCODEC_HEADER
+
+/* Define to 1 if translation of program messages to the user's native
+   language is requested. */
+#undef ENABLE_NLS
+
+/* Do we have Alsa? */
+#undef HAVE_ALSA
+
+/* Define to 1 if you have the MacOS X function CFLocaleCopyCurrent in the
+   CoreFoundation framework. */
+#undef HAVE_CFLOCALECOPYCURRENT
+
+/* Define to 1 if you have the MacOS X function CFPreferencesCopyAppValue in
+   the CoreFoundation framework. */
+#undef HAVE_CFPREFERENCESCOPYAPPVALUE
+
+/* Define if the GNU dcgettext() function is already present or preinstalled.
+   */
+#undef HAVE_DCGETTEXT
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
+/* Enable faac */
+#undef HAVE_FAAC
+
+/* Enable FAAD2 */
+#undef HAVE_FAAD2
+
+/* Define to 1 if you have the <fcntl.h> header file. */
+#undef HAVE_FCNTL_H
+
+/* Define to 1 if you have the `fseeko' function. */
+#undef HAVE_FSEEKO
+
+/* GCC Visibility support */
+#undef HAVE_GCC_VISIBILITY
+
+/* Define to 1 if you have the `getpagesize' function. */
+#undef HAVE_GETPAGESIZE
+
+/* Define if the GNU gettext() function is already present or preinstalled. */
+#undef HAVE_GETTEXT
+
+/* Define to 1 if you have the `gettimeofday' function. */
+#undef HAVE_GETTIMEOFDAY
+
+/* Do we have OpenGL? */
+#undef HAVE_GL
+
+/* Enable GPL code */
+#undef HAVE_GPL
+
+/* Define if you have the iconv() function and it works. */
+#undef HAVE_ICONV
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Do we have libavcodec installed? */
+#undef HAVE_LIBAVCODEC
+
+/* Define to 1 if you have the `dl' library (-ldl). */
+#undef HAVE_LIBDL
+
+/* Do we have libjpeg installed? */
+#undef HAVE_LIBJPEG
+
+/* Define to 1 if you have the `m' library (-lm). */
+#undef HAVE_LIBM
+
+/* Have libossaudio, for NetBSD and OpenBSD */
+#undef HAVE_LIBOSSAUDIO
+
+/* Enable png codec */
+#undef HAVE_LIBPNG
+
+/* Do we have libswscale installed? */
+#undef HAVE_LIBSWSCALE
+
+/* Define to 1 if you have the `z' library (-lz). */
+#undef HAVE_LIBZ
+
+/* Define to 1 if you have the <linux/videodev.h> header file. */
+#undef HAVE_LINUX_VIDEODEV_H
+
+/* Define to 1 if you have the `lrint' function. */
+#undef HAVE_LRINT
+
+/* Define to 1 if you have the `memalign' function. */
+#undef HAVE_MEMALIGN
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* Define to 1 if you have a working `mmap' system call. */
+#undef HAVE_MMAP
+
+/* Use new header file for faad2 */
+#undef HAVE_NEAACDEC_H
+
+/* Define to 1 if you have the `posix_memalign' function. */
+#undef HAVE_POSIX_MEMALIGN
+
+/* Enable dirac codec */
+#undef HAVE_SCHROEDINGER
+
+/* Define to 1 if you have the <schroedinger/schroversion.h> header file. */
+#undef HAVE_SCHROEDINGER_SCHROVERSION_H
+
+/* Do we have sndio? */
+#undef HAVE_SNDIO
+
+/* Define to 1 if you have the <soundcard.h> header file. */
+#undef HAVE_SOUNDCARD_H
+
+/* Define to 1 if you have the <stddef.h> header file. */
+#undef HAVE_STDDEF_H
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the <sys/param.h> header file. */
+#undef HAVE_SYS_PARAM_H
+
+/* Define to 1 if you have the <sys/soundcard.h> header file. */
+#undef HAVE_SYS_SOUNDCARD_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/time.h> header file. */
+#undef HAVE_SYS_TIME_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Define to 1 if you have the `vasprintf' function. */
+#undef HAVE_VASPRINTF
+
+/* Vorbis libraries are there */
+#undef HAVE_VORBIS
+
+/* Enable X264 */
+#undef HAVE_X264
+
+/* Define as 1 if host is Linux */
+#undef LINUX
+
+/* Libquicktime codec API version */
+#undef LQT_CODEC_API_VERSION
+
+/* Libquicktime version */
+#undef LQT_VERSION
+
+/* Define to the sub-directory in which libtool stores uninstalled libraries.
+   */
+#undef LT_OBJDIR
+
+/* Extension for shared modules */
+#undef MODULE_EXT
+
+/* Causes debug code to e removed */
+#undef NDEBUG
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Directory for plugins */
+#undef PLUGIN_DIR
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+/* libswscale header */
+#undef SWSCALE_HEADER
+
+/* Define to 1 if you can safely include both <sys/time.h> and <time.h>. */
+#undef TIME_WITH_SYS_TIME
+
+/* Header for vdpau */
+#undef VDPAU_HEADER
+
+/* Version number of package */
+#undef VERSION
+
+/* Define WORDS_BIGENDIAN to 1 if your processor stores words with the most
+   significant byte first (like Motorola and SPARC, unlike Intel). */
+#if defined AC_APPLE_UNIVERSAL_BUILD
+# if defined __BIG_ENDIAN__
+#  define WORDS_BIGENDIAN 1
+# endif
+#else
+# ifndef WORDS_BIGENDIAN
+#  undef WORDS_BIGENDIAN
+# endif
+#endif
+
+/* Define to 1 if the X Window System is missing or not being used. */
+#undef X_DISPLAY_MISSING
+
+/* Define to 1 to use planar YUV format for 420 blocks in IEC PAL */
+#undef YUV_420_USE_YV12
+
+/* Number of bits in a file offset, on hosts where this is settable. */
+#undef _FILE_OFFSET_BITS
+
+/* Define to enable GNU extensions of glibc, notably large file support */
+#undef _GNU_SOURCE
+
+/* Define for large files, on AIX-style hosts. */
+#undef _LARGE_FILES
+
+/* Define to empty if `const' does not conform to ANSI C. */
+#undef const
+
+/* Define to `__inline__' or `__inline' if that's what the C compiler
+   calls it, or to nothing if 'inline' is not supported under any name.  */
+#ifndef __cplusplus
+#undef inline
+#endif
+
+/* Define to `long int' if <sys/types.h> does not define. */
+#undef off_t
+
+/* Define to `unsigned int' if <sys/types.h> does not define. */
+#undef size_t
